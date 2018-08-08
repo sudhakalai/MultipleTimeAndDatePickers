@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_picker_1"
+        android:text="Time Picker 1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time1"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/time_picker_1"
+        android:text="No time set"
+        android:textSize="16sp"
+        android:padding="8dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_picker_2"
+        android:text="Time Picker 2"
+        android:layout_below="@id/time_picker_1"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time2"
+        android:text="No time set"
+        android:layout_below="@id/time1"
+        android:layout_toEndOf="@id/time_picker_2"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:padding="8dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_picker_3"
+        android:text="Time Picker 3"
+        android:layout_below="@id/time_picker_2"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time3"
+        android:text="No time set"
+        android:layout_below="@id/time2"
+        android:layout_toEndOf="@id/time_picker_3"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:padding="8dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_picker_1"
+        android:text="Date Picker 1"
+        android:layout_below="@id/time_picker_3"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date1"
+        android:text="No Date set"
+        android:layout_below="@id/time3"
+        android:layout_toEndOf="@id/date_picker_1"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:padding="8dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_picker_2"
+        android:text="Date Picker 2"
+        android:layout_below="@id/date_picker_1"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date2"
+        android:text="No Date set"
+        android:layout_below="@id/date1"
+        android:layout_toEndOf="@id/date_picker_2"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:padding="8dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_picker_3"
+        android:text="Date Picker 3"
+        android:layout_below="@id/date_picker_2"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date3"
+        android:text="No Date set"
+        android:layout_below="@id/date2"
+        android:layout_toEndOf="@id/date_picker_3"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:padding="8dp"/>
+
+</RelativeLayout>
